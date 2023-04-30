@@ -19,6 +19,7 @@ export default function PokemonList({ data, onPress }) {
       renderItem={renderPokemon}
       keyExtractor={(item) => item.id}
       contentContainerStyle={styles.listContainer}
+      scrollEnabled={false}
     />
   );
 }
